@@ -1,0 +1,69 @@
+.cursos__title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: darken($color: $dark-blue, $amount: 2);
+    margin-bottom: 3rem;
+}
+
+.curso__title{
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 3rem auto;
+    font-weight: bold;
+}
+
+.curso__seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+   
+}
+
+@media (min-width: 768px){
+    .cursos__contenedor{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 5rem;
+       margin-bottom: 5rem;
+    }
+    
+   
+}
+.cursos__card{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center; 
+    background-color: darken($color: $white, $amount: 2);  
+    margin-bottom: 3rem;
+    
+}
+
+.curso__imagen{
+    height: 23rem;
+    border-radius: 5px;
+    border: 2px solid darken($color: $dark-blue, $amount: 4);
+    transition: height .3s ease;
+    &:hover{
+        height: 32rem;
+    }
+}
+
+.cursos__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:768px){
+    .curso__imagen{
+        height: 28rem;
+    }
+}
+
+.curso__descripcion{
+    font-size: 1.5rem;
+    text-align: center;
+}

@@ -1,0 +1,86 @@
+.footer__contactame{
+    background-color: $white;
+    margin-top: -6rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    color: $dark-blue;
+    text-align: center;
+    padding: 3rem;
+
+}
+
+@media (min-width: 768px){
+    .footer__contactame-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem;
+
+    }
+}
+
+.footer__contactame-title{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.footer__contactame-info{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer__boton-contactame{
+    background-color: $primary;
+    padding: 1rem 4rem;
+    border: none;
+    color: $white;
+    &:hover{
+        background-color: darken($color: $primary, $amount: 5);
+    }
+}
+
+.footer__contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__items{
+    background-color: $primary;
+    height: 20rem;
+}
+
+.footer__title{
+    font-size: 3rem;
+    color: $white;
+    font-weight: bolder;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer__linea{
+    background-color: $primary;
+}
+
+.footer__redes{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__red{
+    margin-right: 2rem;
+}
+.footer__link-red{
+    text-decoration: none;
+    color: $white;
+}
+
+.footer__copy{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.footer__react{
+    font-size: 2rem;
+}
