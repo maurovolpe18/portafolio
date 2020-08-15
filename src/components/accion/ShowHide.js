@@ -5,11 +5,12 @@ export const ShowHide = () => {
     const [show, setShow] = useState(false)
     return (
         <div>
-        {show && <Navbar />}
+            {show && <Navbar />}
 
         <button onClick={()=>{
             setShow(!show)
-        }}>click</button>   
+        }}  >
+            click</button>   
         </div>
     )
 }

@@ -29,15 +29,15 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink 
                         activeClassName="active"
-                        className="nav-item nav-link" 
+                        className="nav-item nav-link disabled" 
                         exact
                         to="/Algo"
                     >
-                        Algo
+                        Proyectos
                     </NavLink>
                     <NavLink 
                         activeClassName="active"
-                        className="nav-item nav-link" 
+                        className="nav-item nav-link nav-contacto" 
                         exact
                         to="/contacto"
                         

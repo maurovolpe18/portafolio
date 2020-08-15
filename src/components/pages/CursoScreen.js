@@ -1,6 +1,5 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom'
-import { CursosScreen } from './CursosScreen'
+import { useParams } from 'react-router-dom'
 import { getCursosByNombre } from '../../selector/getCursoByNombre'
 
 export const CursoScreen = () => {
@@ -9,7 +8,6 @@ export const CursoScreen = () => {
     const curso = getCursosByNombre(cursoNombre)
 
     const {
-        id,
         nombre,
         img,
         descripcion
