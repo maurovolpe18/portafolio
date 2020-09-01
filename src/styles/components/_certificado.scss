@@ -1,25 +1,25 @@
-.certificado__contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+.certificado__contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
-@media (min-width:768px){
-    .certificado__contenedor{
+@media (min-width: 768px) {
+  .certificado__contenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 40rem;
     margin-top: 5rem;
-}}
-
-.certificado__imagen{
-    height: 30rem;
-    
+  }
 }
 
-.certificado__info{
-    font-size: 4rem;
+.certificado__imagen {
+  height: 30rem;
+}
+
+.certificado__info {
+  font-size: 4rem;
 }

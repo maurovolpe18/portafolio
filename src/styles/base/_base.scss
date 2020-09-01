@@ -1,69 +1,70 @@
-*{
-    font-family: Helvetica,Arial, sans-serif;
-    margin: 0px;
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
 
-html,body{
-    height: 100vh;
-    width: 100vw;
-    font-size: 62.5%;
-    background-color: darken($color: #fff, $amount: 4);
-    
+html,
+body {
+  height: 100vh;
+  width: 98vw;
+  font-size: 62.5%;
+  background-color: darken($color: #fff, $amount: 4);
+}
+body {
+  overflow-x: hidden;
+}
+main {
+  width: 100%;
 }
 
-main{
-    width: 100%;
+.h1 {
+  font-size: 3rem;
+}
+.h2 {
+  font-size: 2.5rem;
+}
+.mt-1 {
+  margin-top: 5px;
 }
 
-.h1{
-    font-size: 3rem;
-}
-.h2{
-    font-size: 2.5rem;
-}
-.mt-1{
-    margin-top: 5px;
+.mt-5 {
+  margin-top: 20px;
 }
 
-.mt-5{
-    margin-top: 20px;
+.mb-1 {
+  margin-bottom: 5px;
 }
 
-.mb-1{
-    margin-bottom: 5px;
+.mb-5 {
+  margin-bottom: 20px;
 }
 
-.mb-5{
-    margin-bottom: 20px;
+.pointer {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+.boton {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  margin: 2rem 2rem;
 }
 
-.pointer{
-    cursor: pointer;
-}
-.link{
-    text-decoration: none;
-
-}
-.boton{
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    margin: 2rem 2rem;
+.container-caja {
+  width: 85%;
+  margin: 0 auto;
 }
 
-.container-caja{
-    width: 85%;
-    margin: 0 auto;
+.active {
+  font-weight: bolder;
 }
 
-.active{
-    font-weight: bolder;
-}
-
-.nav-contacto{
-    border-radius: .4rem;
-    background-color: #141C3A;
-    border: .2rem solid wheat;
-    box-shadow: inset -2px 1px 15px 0px rgba(6,0,84,0.54);
-    color: white !important;
+.nav-contacto {
+  border-radius: 0.4rem;
+  background-color: #141c3a;
+  border: 0.2rem solid wheat;
+  box-shadow: inset -2px 1px 15px 0px rgba(6, 0, 84, 0.54);
+  color: white !important;
 }

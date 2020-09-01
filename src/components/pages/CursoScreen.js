@@ -1,26 +1,20 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { getCursosByNombre } from '../../selector/getCursoByNombre'
+import React from "react";
+import { useParams } from "react-router-dom";
+import { getCursosByNombre } from "../../selector/getCursoByNombre";
 
 export const CursoScreen = () => {
-    const {cursoNombre} = useParams()
-    
-    const curso = getCursosByNombre(cursoNombre)
+  const { cursoNombre } = useParams();
 
-    const {
-        nombre,
-        img,
-        descripcion
-    
-    } = curso
+  const curso = getCursosByNombre(cursoNombre);
 
-    console.log(curso)
+  const { nombre, img, descripcion } = curso;
 
-    return (
-        <div className="certificado__contenedor container">
-            <img src={img} alt={nombre} className="certificado__imagen"/>
-            <p className="certificado__info">{descripcion}</p>
-            
-        </div>
-    )
-}
+  console.log(curso);
+
+  return (
+    <div className="certificado__contenedor container">
+      <img src={img} alt={nombre} className="certificado__imagen" />
+      <p className="certificado__info">{descripcion}</p>
+    </div>
+  );
+};
