@@ -1,5 +1,6 @@
 import netflix from "../img/netflix.png";
 import developer from "../img/developer.png";
+import pokedex from "../img/pokedex.png";
 
 export const trabajos = [
   {
@@ -18,8 +19,8 @@ export const trabajos = [
   },
   {
     id: 3,
-    nombre: "Scrum Foundation",
-    img: netflix,
-    direccion: "https://competent-beaver-30cece.netlify.app",
+    nombre: "Pokedex",
+    img: pokedex,
+    direccion: "https://eager-murdock-f9b247.netlify.app/",
   },
 ];
