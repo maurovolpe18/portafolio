@@ -76,7 +76,7 @@
 @media (min-width: 768px) {
   .inicio__aptitudes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
 
@@ -129,9 +129,11 @@
   .inicio__conoceme-item {
     border-right: 1px solid $light-grey;
     margin-top: 3rem;
+    padding-right: 1rem;
   }
   &.inicio__conoceme-item:last-child {
     border-right: none;
+    padding-right: none;
   }
 }
 

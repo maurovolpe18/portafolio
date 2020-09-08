@@ -8,7 +8,10 @@ export const Conoceme = () => {
       <div className="inicio__conoceme-items">
         <div className="inicio__conoceme-item">
           <h3 className="inicio__conoceme-item-title">Cursos</h3>
-          <p className="inicio__conoceme-p">Cursos que he realizado</p>
+          <p className="inicio__conoceme-p">
+            Consulta algunos de los proyectos y empresas en las que he
+            participado.
+          </p>
           <Link to="/contacto" className="link">
             <button className="inicio__boton boton">Contacto</button>
           </Link>

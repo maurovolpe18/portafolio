@@ -12,8 +12,8 @@ export const Aptitudes = () => {
           </div>
 
           <p className="inicio__aptitud-info">
-            Con la última tecnología y responsive design que se adaptan a todas
-            las plataformas, logramos una Sitio Web multiplataforma...
+            Realizo diseños exclusivos según la necesitad de mi cliente. Diseño
+            y Programación de Páginas Web.
           </p>
         </div>
 
@@ -26,20 +26,6 @@ export const Aptitudes = () => {
           <p className="inicio__aptitud-info">
             Programación HTML, XHTML, XML, CSS, Javascript, VBScript, ASP, PHP.
             Bases de Datos...
-          </p>
-        </div>
-
-        <div className="inicio__aptitud">
-          <h3 className="inicio__aptitud-title">Todavia no se</h3>
-          <div className="inicio__iconos">
-            <i className="fas fa-mobile-alt"></i>
-          </div>
-
-          <p className="inicio__aptitud-info">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-            commodi officia illo quam nostrum totam, quod suscipit unde expedita
-            iste itaque ex vero, pariatur dolor maxime veritatis molestiae.
-            Earum, sunt?
           </p>
         </div>
       </div>
