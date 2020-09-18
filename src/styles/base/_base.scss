@@ -61,10 +61,22 @@ main {
   font-weight: bolder;
 }
 
+.nav-item {
+  margin-right: 0.5rem;
+}
+
 .nav-contacto {
   border-radius: 0.4rem;
   background-color: #141c3a;
   border: 0.2rem solid wheat;
   box-shadow: inset -2px 1px 15px 0px rgba(6, 0, 84, 0.54);
   color: white !important;
+}
+
+.show {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }

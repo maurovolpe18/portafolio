@@ -7,10 +7,19 @@ import { InicioScreen } from "../pages/InicioScreen";
 import { Footer } from "../Footer";
 import { CursoScreen } from "../pages/CursoScreen";
 import { Proyectos } from "../pages/Proyectos";
+import ScrollToTop from "react-scroll-to-top";
 
 export const AppRouter = () => {
   return (
     <div>
+      <ScrollToTop
+        smooth
+        style={{
+          background: "white",
+          borderRadius: "3rem",
+          color: "black",
+        }}
+      />
       <Router>
         <Navbar />
         <Switch>

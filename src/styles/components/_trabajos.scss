@@ -5,63 +5,103 @@
   color: darken($color: $dark-blue, $amount: 2);
   margin-bottom: 3rem;
 }
-
 .trabajos__contenedor {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 
+.trabajos__imagen {
+  height: 38rem;
+  width: 39rem;
+}
 .trabajos__card {
-  border: 1px solid black;
-  border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
-  margin-bottom: 3rem;
-  padding-top: 3rem;
-  &:hover {
-    text-decoration: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 2rem;
+  &:last-child {
+    border-bottom: none;
   }
 }
 
 @media (min-width: 768px) {
-  .trabajos__contenedor {
-    flex-direction: row;
-    flex-basis: 33.3%;
-  }
-
   .trabajos__card {
-    margin-right: 2rem;
-    height: 45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .trabajos__imagen {
+    height: 60rem;
+    width: 60rem;
+  }
+}
+.trabajos__nombre {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: $primary;
+}
+.trabajos__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trabajos__descripcion {
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .trabajos__info {
+    align-items: flex-start;
+    height: 26rem;
+    width: 40rem;
+  }
+  .trabajos__descripcion {
+    text-align: start;
+    font-size: 2rem;
   }
 }
 
-.trabajos__imagen {
-  width: 90%;
-  height: 30rem;
-}
-
-.trabajos__nombre {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
+.trabajos__botones {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin-top: 2rem;
-  color: $primary;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
-.trabajos__web {
-  font-size: 1.5rem;
-  text-align: center;
+.trabajos__boton-link {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+  border-radius: 1.2rem;
+  background-color: $primary;
+  border: none;
+  padding: 1.2rem 3rem;
 }
 
-.trabajos__git {
-  color: $primary;
-  font-size: 3rem;
-  margin-bottom: 3rem;
-  margin-top: 1rem;
+.trabajos__boton-git {
+  font-size: 2.2rem;
+  border-radius: 1.2rem;
+  background-color: $primary;
+  border: none;
+  padding: 1.2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .trabajos__botones {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
