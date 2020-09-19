@@ -14,8 +14,8 @@
 }
 
 .trabajos__imagen {
-  height: 38rem;
-  width: 39rem;
+  height: 30rem;
+  width: 100%;
 }
 .trabajos__card {
   display: flex;
@@ -72,6 +72,7 @@
 
 .trabajos__botones {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   margin-top: 2rem;
@@ -83,9 +84,19 @@
   font-size: 2.2rem;
   margin-right: 1rem;
   border-radius: 1.2rem;
+  margin-bottom: 3rem;
   background-color: $primary;
   border: none;
   padding: 1.2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .trabajos__botones {
+    flex-direction: row;
+  }
+  .trabajos__boton-link {
+    margin-bottom: 0;
+  }
 }
 
 .trabajos__boton-git {
@@ -93,6 +104,8 @@
   border-radius: 1.2rem;
   background-color: $primary;
   border: none;
+  height: 6rem;
+  width: 17rem;
   padding: 1.2rem 3rem;
 }
 

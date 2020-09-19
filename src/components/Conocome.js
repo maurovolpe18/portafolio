@@ -12,13 +12,16 @@ export const Conoceme = () => {
             Consulta algunos de los proyectos y empresas en las que he
             participado.
           </p>
-          <Link to="/contacto" className="link">
-            <button className="inicio__boton boton">Contacto</button>
+          <Link to="/cursos" className="link">
+            <button className="inicio__boton boton">cursos</button>
           </Link>
         </div>
         <div className="inicio__conoceme-item">
           <h3 className="inicio__conoceme-item-title">Curriculum</h3>
-          <p className="inicio__conoceme-p">Descarga mi curriculum</p>
+          <p className="inicio__conoceme-p">
+            ¿Quiéres conocerme un poco más?. <br />
+            Descarga mi curriculum
+          </p>
           <button className="inicio__boton-curriculum boton">Curriculum</button>
         </div>
       </div>

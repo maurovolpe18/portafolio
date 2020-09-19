@@ -30,7 +30,8 @@
   }
 }
 .cursos__card {
-  border: 1px solid black;
+  border-radius: 0.2rem;
+  width: 98%;
   display: flex;
   justify-content: center;
   background-color: darken($color: $white, $amount: 2);
@@ -39,6 +40,7 @@
 
 .curso__imagen {
   height: 23rem;
+  width: 95%;
   border-radius: 5px;
   border: 2px solid darken($color: $dark-blue, $amount: 4);
   transition: height 0.3s ease;
@@ -54,8 +56,12 @@
   align-items: center;
 }
 @media (min-width: 768px) {
+  .cursos__card {
+    width: 47rem;
+  }
   .curso__imagen {
     height: 28rem;
+    width: 45rem;
   }
 }
 

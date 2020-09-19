@@ -152,10 +152,11 @@
   background-color: $primary;
   margin-top: 2rem;
   color: $white;
-  transition: padding 0.3s ease;
+  padding: 0.5rem 2rem;
+  transition: padding 0.4s ease;
   &:hover {
     background-color: darken($color: $primary, $amount: 5);
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 4.4rem;
   }
 }
 .link {
@@ -170,8 +171,9 @@
 .inicio__boton-curriculum {
   border: 3px solid $primary;
   background-color: $white;
-  transition: padding 0.3s ease;
+  padding: 0.5rem 2rem;
+  transition: padding 0.4s ease;
   &:hover {
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 4.4rem;
   }
 }
