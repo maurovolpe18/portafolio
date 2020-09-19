@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import algo from "../img/algo.png";
+import programador from "../img/programador.svg";
 
 export const Header = (toggle) => {
   return (
@@ -18,7 +18,7 @@ export const Header = (toggle) => {
             />
           </h1>
         </div>
-        <img className="inicio__pc" src={algo} alt="algo" />
+        <img className="inicio__pc" src={programador} alt="algo" />
       </div>
     </>
   );
