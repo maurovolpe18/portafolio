@@ -6,7 +6,7 @@ export const Aptitudes = () => {
       <h2 className="inicio__aptitudes-title">Servicios</h2>
       <div className="inicio__aptitudes">
         <div className="inicio__aptitud">
-          <h2 className="inicio__aptitud-title">Diseño web y movil</h2>
+          <h2 className="inicio__aptitud-title">Diseño web y móvil</h2>
           <div className="inicio__iconos">
             <i className="fas fa-mobile-alt"></i>
           </div>
