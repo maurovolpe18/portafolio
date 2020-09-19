@@ -44,7 +44,7 @@ export const Navbar = () => {
               exact
               to="/cursos"
             >
-              Cursos
+              Certificados
             </NavLink>
             <NavLink
               activeClassName="active"

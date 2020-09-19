@@ -7,13 +7,12 @@ export const Conoceme = () => {
       <h2 className="inicio__conoceme-title">Conóceme</h2>
       <div className="inicio__conoceme-items">
         <div className="inicio__conoceme-item">
-          <h3 className="inicio__conoceme-item-title">Cursos</h3>
+          <h3 className="inicio__conoceme-item-title">Certificados</h3>
           <p className="inicio__conoceme-p">
-            Consulta algunos de los proyectos y empresas en las que he
-            participado.
+            Consulta algunos de los cursos y certificados que he realizado
           </p>
           <Link to="/cursos" className="link">
-            <button className="inicio__boton boton">cursos</button>
+            <button className="inicio__boton boton">Certificados</button>
           </Link>
         </div>
         <div className="inicio__conoceme-item">
