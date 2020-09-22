@@ -10,6 +10,7 @@ import { Proyectos } from "../pages/Proyectos";
 import ScrollToTop from "react-scroll-to-top";
 
 export const AppRouter = () => {
+  const showContact = true;
   return (
     <div>
       <ScrollToTop
@@ -52,7 +53,7 @@ export const AppRouter = () => {
           </Route>
         </Switch>
 
-        <Footer />
+        <Footer showContact={showContact} />
       </Router>
     </div>
   );

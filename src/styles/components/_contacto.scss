@@ -14,35 +14,45 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 5rem;
-  width: 70%;
-  background-color: $white;
+  margin-bottom: 14rem;
+  width: 80%;
+  background-color: lighten($color: $light-grey, $amount: 4);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
-.contacto__persona {
+.contacto__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 70%;
-  height: 5rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  border-radius: 1rem;
 }
-
+.contacto__persona,
 .contacto__email {
-  width: 70%;
-  text-align: center;
+  width: 100%;
   height: 5rem;
-  margin-bottom: 2rem;
-  border-radius: 1rem;
+  background: none;
+  border: none;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  &:focus {
+    outline: none;
+    border-bottom: 0.3rem solid black;
+  }
+}
+.contacto__email {
+  margin-right: 0;
 }
 
 .contacto__mensaje {
   width: 70%;
   text-align: center;
+  background: none;
+  border: none;
+  border-bottom: 0.3rem solid black;
   margin-bottom: 2rem;
-  border-radius: 1rem;
-  height: 10rem;
+  height: 14rem;
+  text-align: start;
 }
 
 .contacto__boton-formulario {

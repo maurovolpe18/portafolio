@@ -1,5 +1,6 @@
 import React from "react";
 import { ContactameCaja } from "./ContactameCaja";
+import { CurriculumCaja } from "./CurriculumCaja";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
@@ -7,12 +8,20 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useLocation } from "react-router-dom";
 
 export const Footer = () => {
+  const location = useLocation();
+  console.log(location.pathname);
+
   return (
     <>
       <div className="footer__items d-flex flex-nowrap flex-column">
-        <ContactameCaja />
+        {location.pathname !== "/contacto" ? (
+          <ContactameCaja />
+        ) : (
+          <CurriculumCaja />
+        )}
         <div className="footer__linea">
           <div className="container">
             <p className="footer__title">Desarrollador Front End</p>
