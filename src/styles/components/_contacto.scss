@@ -3,19 +3,39 @@
   text-align: center;
   font-weight: bold;
   color: darken($color: $dark-blue, $amount: 2);
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
+}
+
+.contacto__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto__imagen {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .contacto__container {
+    display: grid;
+    grid-template-columns: 50% 60%;
+    column-gap: 5rem;
+  }
 }
 
 .contacto__formulario {
+  margin-top: 5rem;
   font-size: 1.5rem;
   border: 2px solid black;
   border-radius: 2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   margin-bottom: 14rem;
-  width: 80%;
+  width: 100%;
+  height: 50rem;
   background-color: lighten($color: $light-grey, $amount: 4);
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -33,8 +53,9 @@
   background: none;
   border: none;
   border-bottom: 0.1rem solid black;
-  margin-bottom: 1rem;
+  margin-top: 5rem;
   margin-right: 1rem;
+  margin-bottom: 5rem;
   &:focus {
     outline: none;
     border-bottom: 0.3rem solid black;
@@ -50,7 +71,7 @@
   background: none;
   border: none;
   border-bottom: 0.3rem solid black;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   height: 14rem;
   text-align: start;
 }
