@@ -7,10 +7,10 @@ export const ContactameCaja = () => {
       <div className="footer__contactame-items container">
         <h2 className="footer__contactame-title">Contáctame</h2>
         <p className="footer__contactame-info">
-          ¿Estás interesado en trabajar juntos?, No dudes en contactarme?
+          ¿Estás interesado en trabajar juntos?
         </p>
         <Link to="/contacto" className="footer__boton-contactame boton link ">
-          Contacto
+          ¡Contáctame!
         </Link>
       </div>
     </div>

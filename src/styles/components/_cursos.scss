@@ -44,9 +44,6 @@
   border-radius: 5px;
   border: 2px solid darken($color: $dark-blue, $amount: 4);
   transition: height 0.3s ease;
-  &:hover {
-    height: 32rem;
-  }
 }
 
 .cursos__info {
@@ -61,7 +58,13 @@
   }
   .curso__imagen {
     height: 28rem;
-    width: 45rem;
+    width: 38rem;
+    object-fit: contain;
+    transition: transform 0.9s ease;
+    border: none;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 

@@ -12,8 +12,8 @@ export const Aptitudes = () => {
           </div>
 
           <p className="inicio__aptitud-info">
-            Realizo diseños exclusivos según la necesidad de mi cliente. Diseño
-            y Programación de Páginas Web.
+            Realizo diseños exclusivos según la necesidad de cada cliente y su
+            identidad corporativa, ¡tomando en cuenta la experiencia de usuario!
           </p>
         </div>
 

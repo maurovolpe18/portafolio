@@ -46,7 +46,8 @@ main {
   text-decoration: none;
 }
 .boton {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
   padding: 0.5rem;
   border-radius: 0.4rem;
   margin: 2rem 2rem;
@@ -66,11 +67,14 @@ main {
 }
 
 .nav-contacto {
-  border-radius: 0.4rem;
   border: 0.4rem solid #f9a826;
-  border-radius: 3rem;
 }
-
+@media (min-width: 768px) {
+  .nav-contacto {
+    border: 0.4rem solid #f9a826;
+    border-radius: 3rem;
+  }
+}
 .show {
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;

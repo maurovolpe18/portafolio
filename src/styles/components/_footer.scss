@@ -9,15 +9,6 @@
   padding: 3rem;
 }
 
-@media (min-width: 768px) {
-  .footer__contactame-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem;
-  }
-}
-
 .footer__contactame-title {
   font-weight: bold;
   font-size: 3rem;
@@ -25,7 +16,20 @@
 
 .footer__contactame-info {
   font-size: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer__contactame-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+  }
+  .footer__contactame-info {
+    margin-bottom: 0;
+  }
 }
 
 .footer__boton-contactame {
@@ -62,10 +66,16 @@
 }
 
 .footer__redes {
-  font-size: 5rem;
+  font-size: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .footer__redes {
+    font-size: 5rem;
+  }
 }
 .footer__red {
   margin-right: 2rem;

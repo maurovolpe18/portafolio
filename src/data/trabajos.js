@@ -16,14 +16,14 @@ export const trabajos = [
     nombre: "Espacio Developer",
     img: developer,
     direccion: "https://competent-beaver-30cece.netlify.app",
-    descripcion: "Un clon de netflix diseñado con la api 'The Movie Database'",
+    descripcion: "Proyecto en construcción",
     git: "https://github.com/EspacioDelDeveloper/FE-Team-B",
   },
   {
     id: 3,
     nombre: "Pokedex",
     img: pokedex,
-    descripcion: "Un clon de netflix diseñado con la api 'The Movie Database'",
+    descripcion: "Un pokédex realizado con la api 'pokeapi'",
     direccion: "https://eager-murdock-f9b247.netlify.app/",
   },
 ];
