@@ -16,7 +16,7 @@
 
 .footer__contactame-info {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -36,9 +36,16 @@
   background-color: $primary;
   padding: 1rem 4rem;
   border: none;
+  margin: 0 auto;
   color: $white;
   &:hover {
     background-color: darken($color: $primary, $amount: 5);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__boton-contactame {
+    margin: 0;
   }
 }
 
@@ -49,7 +56,7 @@
 
 .footer__items {
   background-color: $primary;
-  height: 20rem;
+  height: 46vh;
   width: 100vw;
 }
 
@@ -75,6 +82,9 @@
 @media (min-width: 768px) {
   .footer__redes {
     font-size: 5rem;
+  }
+  .footer__items {
+    height: 40vh;
   }
 }
 .footer__red {
