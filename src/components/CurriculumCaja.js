@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Curriculum from "../img/Curriculum.pdf";
 
 export const CurriculumCaja = () => {
   return (
@@ -9,9 +9,16 @@ export const CurriculumCaja = () => {
         <p className="footer__contactame-info">
           Puedes ver mi curriculum haciendo click acá
         </p>
-        <Link to="/contacto" className="footer__boton-contactame boton link ">
-          Curriculum
-        </Link>
+        <button className="footer__boton-contactame boton link ">
+          <a
+            href={Curriculum}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="curriculum__link-contacto"
+          >
+            Curriculum
+          </a>
+        </button>
       </div>
     </div>
   );

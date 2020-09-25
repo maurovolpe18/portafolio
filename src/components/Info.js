@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
 
 export const Info = () => {
-    return (
-        <div className="inicio__info">
-            <div className="inicio__text-info container">
-                <h1 className="inicio__texto-info">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="inicio__info">
+      <div className="inicio__text-info container">
+        <h1 className="inicio__title">Diseñemos tú sitio Web</h1>
+        <h2 className="inicio__texto-info">
+          Tu sitio web es la imagen de tu negocio en Internet, ¡déjalo en mis
+          manos! <br />
+          Realicemos tu sitio web a medida para responder a todo tipo de
+          necesidades. Sea cual sea el sector de tu empresa, daremos con el
+          diseño y estructura que mejor refleje lo que quieres conseguir con tu
+          web.
+        </h2>
+      </div>
+    </div>
+  );
+};

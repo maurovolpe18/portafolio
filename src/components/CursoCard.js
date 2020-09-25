@@ -11,7 +11,9 @@ export const CursoCard = ({ id, nombre, img, descripcion }) => {
           {/*</Link>*/}
 
           <div className="curso__descripcion">
-            <a href={descripcion}>Ir al sitio web del curso</a>
+            <a href={descripcion} target="_blank" rel="noopener noreferrer">
+              Ir al sitio web del curso
+            </a>
           </div>
         </div>
       </div>

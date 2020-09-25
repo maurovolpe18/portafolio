@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
@@ -10,6 +10,7 @@ body {
   font-size: 62.5%;
   background-color: darken($color: #fff, $amount: 4);
 }
+
 body {
   overflow-x: hidden;
 }
@@ -81,4 +82,19 @@ main {
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
+}
+
+.curriculum__link {
+  color: black;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+.curriculum__link-contacto {
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
