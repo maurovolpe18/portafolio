@@ -16,7 +16,11 @@ export const ContactoScreen = () => {
         <h1 className="contacto__title">Contacto</h1>
         <div className="contacto__container">
           <img src={mail} alt={mail} className="contacto__imagen" />
-          <form className="contacto__formulario container">
+          <form
+            action="correo.php"
+            method="POST"
+            className="contacto__formulario container"
+          >
             <div className="contacto__info">
               <input
                 type="text"
@@ -25,6 +29,7 @@ export const ContactoScreen = () => {
                 className="contacto__persona"
                 value={nombre}
                 onChange={handleInputChange}
+                required
               />
               <input
                 type="email"
@@ -33,6 +38,7 @@ export const ContactoScreen = () => {
                 className="contacto__email"
                 value={email}
                 onChange={handleInputChange}
+                required
               />
             </div>
             <textarea
@@ -41,6 +47,7 @@ export const ContactoScreen = () => {
               value={texto}
               onChange={handleInputChange}
               placeholder="Mensaje"
+              required
             ></textarea>
 
             <button type="submit" className="boton contacto__boton-formulario">
