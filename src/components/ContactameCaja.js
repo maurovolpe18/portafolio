@@ -9,6 +9,7 @@ export const ContactameCaja = () => {
         <p className="footer__contactame-info">
           ¿Estás interesado en trabajar juntos?
         </p>
+
         <Link to="/contacto" className="footer__boton-contactame boton link ">
           ¡Contáctame!
         </Link>

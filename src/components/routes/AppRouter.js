@@ -8,6 +8,7 @@ import { Footer } from "../Footer";
 import { CursoScreen } from "../pages/CursoScreen";
 import { Proyectos } from "../pages/Proyectos";
 import ScrollToTop from "react-scroll-to-top";
+import { NotFound } from "../NotFound";
 
 export const AppRouter = () => {
   const showContact = true;
@@ -24,34 +25,16 @@ export const AppRouter = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/proyectos" component={Proyectos}>
-            <Proyectos />
-          </Route>
-        </Switch>
-        <Switch>
-          <Route exact path="/cursos" component={CursosScreen}>
-            <CursosScreen />
-          </Route>
-        </Switch>
+          <Route exact path="/proyectos" component={Proyectos} />
 
-        <Switch>
-          <Route exact path="/contacto" component={ContactoScreen}>
-            <ContactoScreen />
-          </Route>
-        </Switch>
+          <Route exact path="/cursos" component={CursosScreen} />
 
-        <Switch>
-          <Route
-            exact
-            path="/cursos/:cursoNombre"
-            component={CursoScreen}
-          ></Route>
-        </Switch>
+          <Route exact path="/contacto" component={ContactoScreen} />
 
-        <Switch>
-          <Route exact path="/" component={InicioScreen}>
-            <InicioScreen />
-          </Route>
+          <Route exact path="/cursos/:cursoNombre" component={CursoScreen} />
+
+          <Route exact path="/" component={InicioScreen} />
+          <Route component={NotFound} />
         </Switch>
 
         <Footer showContact={showContact} />

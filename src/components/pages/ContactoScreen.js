@@ -1,4 +1,5 @@
 import React from "react";
+import { ScrollTop } from "../accion/ScrollTop";
 import { useForm } from "../../hooks/useForm";
 import mail from "../../img/mail.svg";
 export const ContactoScreen = () => {
@@ -12,6 +13,7 @@ export const ContactoScreen = () => {
 
   return (
     <>
+      <ScrollTop />
       <div className="container">
         <h1 className="contacto__title">Contacto</h1>
         <div className="contacto__container">
